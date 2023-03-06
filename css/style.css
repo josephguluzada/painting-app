@@ -27,6 +27,22 @@ html {
     align-items: center;
 }
 
+.pic-border-area{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.current{
+  margin-top: 20px;
+}
+
+.current-size{
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 #sizeDatas{
     width: 100px;
 }

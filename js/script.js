@@ -1,6 +1,7 @@
 const canvas = document.querySelector("canvas");
 const c = canvas.getContext("2d");
 const pxValueSelectBox = document.querySelector("#sizeDatas");
+const currentSize = document.querySelector(".current-size");
 
 c.fillStyle = "hotpink";
 
@@ -8,6 +9,7 @@ let pxValue = 2;
 
 pxValueSelectBox.addEventListener("change", (event) => {
     pxValue = event.target.value;
+    currentSize.innerText = `${pxValue}px`;
 })
 
 
