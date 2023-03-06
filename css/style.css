@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    padding: 1rem;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  canvas {
+    background: #fff;
+    width: 600px;
+    height: 600px;
+    border: 2px dashed;
+  }
+  a {
+    display: inline-block;
+    background: rgb(133, 204, 102);
+    color: #fff;
+    padding: 5px 10px;
+  }
+  
