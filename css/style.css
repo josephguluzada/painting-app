@@ -13,6 +13,24 @@ html {
     justify-content: center;
     align-items: center;
   }
+.painting-area{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.size-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sizeDatas{
+    width: 100px;
+}
+
   canvas {
     background: #fff;
     width: 300px;
