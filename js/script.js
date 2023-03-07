@@ -2,8 +2,13 @@ const canvas = document.querySelector("canvas");
 const c = canvas.getContext("2d");
 const pxValueSelectBox = document.querySelector("#sizeDatas");
 const currentSize = document.querySelector(".current-size");
+const colorInput = document.querySelector("#colorInput");
 
-c.fillStyle = "hotpink";
+colorInput.addEventListener("change", (e) => {
+    c.fillStyle = e.target.value;
+})
+
+
 
 let pxValue = 2;
 

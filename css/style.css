@@ -52,6 +52,7 @@ html {
     width: 300px;
     height: 300px;
     border: 2px dashed;
+    cursor: crosshair;
   }
   a {
     display: inline-block;
